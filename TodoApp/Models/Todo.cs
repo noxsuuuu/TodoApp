@@ -19,7 +19,7 @@ namespace TodoApp.Models
         [DisplayFormat(DataFormatString = "{0:dd/MM/yyyy}")]
         public DateTime? DueDate { get; set; } // 
 
-
+        public int time { get; set; }
      /*   [CustomAgeValidation(18)]
         public int Age { get; set; } // age should be greater than 18
 */
